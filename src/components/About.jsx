@@ -21,13 +21,15 @@ function About() {
           {/* Text Section */}
           <div className="col-md-6 text-center text-md-start">
             <h2 className="fw-bold mb-3 animate__animated animate__fadeInDown">
-              About Us
+              About Us 
             </h2>
             <p className="text-muted mb-4 animate__animated animate__fadeInUp">
-              Nestled in the heart of Purulia, Kingsukh Guest House offers
-              modern amenities with a touch of traditional charm. Whether you’re
-              here for leisure or business, we ensure a comfortable stay with
-              personalized service.
+             Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of
+              Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maith
+              on Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals,
+              and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of
+              nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories th
+              at linger long after your stay.
             </p>
             <ul className="list-unstyled animate__animated animate__fadeInUp animate__delay-1s">
               <li>✔ Comfortable and Spacious Rooms</li>
