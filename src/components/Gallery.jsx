@@ -10,19 +10,27 @@ function Gallery() {
   const images = [g1, g2, g3, g4, g5, g6];
 
   return (
-    <section id="gallery" className="py-5">
+    <section id="gallery" className="py-5 bg-light">
       <div className="container">
         <h2 className="text-center mb-5" data-aos="fade-up">
           Gallery
         </h2>
-        <div className="row">
+        <div className="row g-4">
           {images.map((img, idx) => (
-            <div key={idx} className="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay={idx * 100}>
-              <img
-                src={img} // Use the imported image variable directly
-                alt="Gallery"
-                className="img-fluid rounded shadow"
-              />
+            <div
+              key={idx}
+              className="col-12 col-sm-6 col-md-4"
+              data-aos="zoom-in"
+              data-aos-delay={idx * 100}
+            >
+              <div className="card border-0 shadow-sm h-100">
+                <img
+                  src={img}
+                  alt={`Gallery ${idx + 1}`}
+                  className="card-img-top img-fluid rounded"
+                  style={{ objectFit: "cover", height: "250px" }}
+                />
+              </div>
             </div>
           ))}
         </div>
