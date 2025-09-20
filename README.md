@@ -26,8 +26,8 @@ Experience the live site here: [Kingsukh Guesthouse Live Demo](https://kingsukh-
 ---
 
 ## Screenshots
-![Homepage](/kingsukh-guesthouse/src/assets/header.jpg.png)
-![Gallery](/kingsukh-guesthouse/src/assets/gallery6.jpg.png)
+![Homepage](public/header.jpg)
+![Gallery](public/gallery6.jpg)
 
 ---
 
